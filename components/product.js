@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, Image, Button } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, removeFromCart } from "./services/action";
+import { addToCart, removeFromCart } from "./Redux/action";
 
 const Product = (props) => {
     const item = props.item;
